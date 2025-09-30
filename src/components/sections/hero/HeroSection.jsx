@@ -60,7 +60,7 @@ const HeroPage = () => {
             </div>
 
             {/* Course Completed Card - Top Left */}
-            <div className="absolute -top-4 -left-4 sm:-top-6 sm:-left-6 md:-left-8 w-36 sm:w-40 md:w-48 bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-2xl p-3 md:p-4 border border-gray-100">
+            <div className="absolute -top-4 -left-0 sm:-top-6 sm:-left-6 md:-left-8 w-36 sm:w-40 md:w-48 bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-2xl p-3 md:p-4 border border-gray-100">
               <div className="flex items-center justify-between mb-2 md:mb-3">
                 <span className="font-semibold text-gray-800 text-sm md:text-base">Courses</span>
                 <div className="w-8 h-8 md:w-10 md:h-10 bg-blue-50 rounded-full flex items-center justify-center">
@@ -78,7 +78,7 @@ const HeroPage = () => {
             </div>
 
             {/* Latest Activity Card - Bottom Right */}
-            <div className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:-right-6 md:-right-8 w-52 sm:w-56 md:w-64 bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-2xl p-3 md:p-4 border border-gray-100">
+            <div className="absolute -bottom-6 -right-0 sm:-bottom-8 sm:-right-6 md:-right-8 w-52 sm:w-56 md:w-64 bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-2xl p-3 md:p-4 border border-gray-100">
               <div className="flex items-center justify-between mb-2 md:mb-3">
                 <span className="font-semibold text-gray-800 text-sm md:text-base">
                   Live Activity
@@ -129,7 +129,7 @@ const HeroPage = () => {
             </div>
 
             {/* Mentor Support Badge - Bottom Left */}
-            <div className="absolute bottom-4 -left-3 sm:bottom-6 sm:-left-4 md:bottom-8 md:-left-6 bg-gradient-to-r from-[#1E3A76] to-[#2a4d8f] text-white rounded-lg md:rounded-xl shadow-lg px-3 md:px-4 py-2 md:py-3">
+            <div className="absolute bottom-4 -left-0 sm:bottom-6 sm:-left-4 md:bottom-8 md:-left-6 bg-gradient-to-r from-[#1E3A76] to-[#2a4d8f] text-white rounded-lg md:rounded-xl shadow-lg px-3 md:px-4 py-2 md:py-3">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                 <span className="text-xs md:text-sm font-semibold">24/7 Support</span>

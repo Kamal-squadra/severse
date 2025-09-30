@@ -15,15 +15,15 @@ const CTAInitiateSection = () => (
             Contact us or initiate your Seaverse account for modern maritime
             learning!
           </p>
-          <form className="flex flex-col sm:flex-row items-center">
+          <form className="flex flex-col gap-4 md:gap-0 sm:flex-row items-center">
             <input
               type="email"
               placeholder="Enter your email"
-              className="rounded-l-md px-6 border border-white bg-white py-4 w-64 text-gray-800 focus:outline-none"
+              className="rounded-md md:rounded-l-md px-6 border border-white bg-white py-4 w-64 text-gray-800 focus:outline-none"
             />
             <button
               type="submit"
-              className="rounded-r-md border border-white px-8 py-4 text-white font-semibold hover:bg-white hover:text-[#1976f6] transition"
+              className="rounded-md md:rounded-r-md border w-full md:w-fit border-white px-8 py-4 text-white font-semibold hover:bg-white hover:text-[#1976f6] transition"
             >
               Get Started
             </button>
