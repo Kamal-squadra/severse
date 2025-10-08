@@ -14,7 +14,7 @@ const HeroPage = () => {
         loop
         muted
         playsInline
-        src="/videos/hero-bg.mp4"
+        src="https://squadra-media.s3.ap-south-1.amazonaws.com/hero-bg+(4).mp4"
       />
 
       {/* Overlay for dark effect */}
