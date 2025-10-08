@@ -1,7 +1,7 @@
 import { LineChart, ShieldCheck } from "lucide-react";
 
 const FeatureHighlightSection = () => (
-  <section className="py-16 md:py-24 lg:py-32 px-4 md:px-6">
+  <section className="py-16 md:py-24 px-4 md:px-6">
     <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-0 lg:gap-16">
       {/* Visual/graph stacked cards */}
       <div className="relative w-full lg:w-1/2 h-80 md:h-96 lg:h-[500px] flex justify-center items-center order-2 lg:order-1">

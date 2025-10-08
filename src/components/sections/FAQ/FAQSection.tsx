@@ -43,7 +43,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="py-24 bg-gray-50 text-gray-900">
+    <section className="py-24 text-gray-900">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl heading font-bold text-center mb-16 max-w-3xl mx-auto">
           Get Insight into{" "}

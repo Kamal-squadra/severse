@@ -64,7 +64,7 @@ const TrustImpactBar = () => {
   };
 
   return (
-    <div className="py-16">
+    <div className="py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section 1: Premium Training Modules */}
         <div className="mb-24 flex flex-col lg:flex-row items-center gap-12">

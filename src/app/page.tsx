@@ -1,10 +1,16 @@
 import React from "react";
-import HeroSection from "@/components/sections/hero/HeroSection";
+import {
+  FeaturesSection,
+  HeroSection,
+  WhatIsSeaverse,
+} from "@/components/sections";
 
 const HomePage = () => {
   return (
     <div>
       <HeroSection />
+      <WhatIsSeaverse />
+      <FeaturesSection />
     </div>
   );
 };

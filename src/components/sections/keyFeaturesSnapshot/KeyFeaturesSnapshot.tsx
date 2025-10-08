@@ -14,7 +14,7 @@ import {
 const KeyFeaturesSnapshot = () => {
   return (
     <section className="py-20">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-6 text-black">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl heading font-bold mb-3">Key <span className="text-[#1E3A76]">Features</span></h2>

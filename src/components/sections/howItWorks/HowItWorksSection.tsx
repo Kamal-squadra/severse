@@ -30,7 +30,7 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
+    <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-b overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20">

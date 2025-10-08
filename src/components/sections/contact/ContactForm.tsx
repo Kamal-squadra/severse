@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { useI18n } from "@/lib/i18n/LanguageProvider";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -24,14 +25,15 @@ const ContactForm = () => {
     setFormData({ name: "", email: "", company: "", message: "" });
   };
 
+  const { t } = useI18n();
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-[#1E3A76] mb-4">
-          Get in Touch
+          {t("contact.title")}
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Ready to transform your business with our platform? Contact us today and let's discuss how we can help you achieve your goals.
+          {t("contact.subtitle")}
         </p>
       </div>
 
@@ -39,7 +41,7 @@ const ContactForm = () => {
         {/* Contact Information */}
         <div className="space-y-8">
           <div>
-            <h3 className="text-xl font-semibold text-[#1E3A76] mb-4">Contact Information</h3>
+            <h3 className="text-xl font-semibold text-[#1E3A76] mb-4">{t("contact.info.title")}</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-[#1E3A76] rounded-lg flex items-center justify-center">
@@ -48,7 +50,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium">Email</p>
+                  <p className="font-medium">{t("contact.info.email")}</p>
                   <p className="text-gray-600">contact@seaverse.com</p>
                 </div>
               </div>
@@ -60,7 +62,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium">Phone</p>
+                  <p className="font-medium">{t("contact.info.phone")}</p>
                   <p className="text-gray-600">+1 (555) 123-4567</p>
                 </div>
               </div>
@@ -73,7 +75,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium">Address</p>
+                  <p className="font-medium">{t("contact.info.address")}</p>
                   <p className="text-gray-600">123 Business St, Suite 100<br />San Francisco, CA 94105</p>
                 </div>
               </div>
@@ -85,9 +87,7 @@ const ContactForm = () => {
         <div>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                Full Name *
-              </label>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">{t("contact.form.name.label")}</label>
               <input
                 type="text"
                 id="name"
@@ -96,14 +96,12 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A76] focus:border-transparent transition-colors"
-                placeholder="Enter your full name"
+                placeholder={t("contact.form.name.placeholder")}
               />
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                Email Address *
-              </label>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">{t("contact.form.email.label")}</label>
               <input
                 type="email"
                 id="email"
@@ -112,14 +110,12 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A76] focus:border-transparent transition-colors"
-                placeholder="Enter your email address"
+                placeholder={t("contact.form.email.placeholder")}
               />
             </div>
 
             <div>
-              <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                Company
-              </label>
+              <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">{t("contact.form.company.label")}</label>
               <input
                 type="text"
                 id="company"
@@ -127,14 +123,12 @@ const ContactForm = () => {
                 value={formData.company}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A76] focus:border-transparent transition-colors"
-                placeholder="Enter your company name"
+                placeholder={t("contact.form.company.placeholder")}
               />
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                Message *
-              </label>
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">{t("contact.form.message.label")}</label>
               <textarea
                 id="message"
                 name="message"
@@ -143,7 +137,7 @@ const ContactForm = () => {
                 required
                 rows={5}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A76] focus:border-transparent transition-colors resize-none"
-                placeholder="Tell us about your project or how we can help you"
+                placeholder={t("contact.form.message.placeholder")}
               />
             </div>
 
@@ -151,7 +145,7 @@ const ContactForm = () => {
               type="submit"
               className="w-full bg-[#1E3A76] text-white py-3 px-6 rounded-lg font-medium hover:bg-[#162d5a] transition-colors duration-200 focus:ring-2 focus:ring-[#1E3A76] focus:ring-offset-2"
             >
-              Send Message
+              {t("contact.form.submit")}
             </button>
           </form>
         </div>
