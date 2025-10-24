@@ -16,14 +16,14 @@ const translations: Translations = {
   "nav.language.zh": { en: "中文", zh: "中" },
 
   // Hero
-  "hero.title.1": { en: "Elevate Maritime", zh: "提升海事" },
-  "hero.title.2": { en: "Learning", zh: "学习" },
+  "hero.title.1": { en: "Shaping the Future of", zh: "智能塑造" },
+  "hero.title.2": { en: "Learning, Intelligently.", zh: "学习的未来" },
   "hero.subtitle": {
-    en: "Seaverse is built for modern fleets—track training, ensure compliance, and empower every seafarer with personalized lessons, analytics, and support.",
-    zh: "Seaverse 为现代船队打造——跟踪培训、确保合规，并通过个性化课程、分析和支持赋能每一位海员。",
+    en: "Sealearning is an AI-first, innovation-forward brand redefining digital learning experiences for the modern world.",
+    zh: "Sealearning 是一个人工智能优先、创新为先的品牌，重新定义现代世界的数字学习体验。",
   },
-  "hero.form.emailPlaceholder": { en: "Work email", zh: "工作邮箱" },
-  "hero.form.cta": { en: "Start for free", zh: "免费开始" },
+  "hero.form.emailPlaceholder": { en: "Explore Seaverse", zh: "探索 Seaverse" },
+  "hero.form.cta": { en: "Talk to Us", zh: "联系我们" },
   "hero.rating.value": { en: "4.9", zh: "4.9" },
   "hero.rating.reviews": { en: "(390+ reviews)", zh: "（390+ 评价）" },
   "hero.card.courses": { en: "Courses", zh: "课程" },

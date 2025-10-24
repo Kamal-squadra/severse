@@ -15,35 +15,31 @@ const WhatIsSeaVerse = () => {
               <div className="inline-flex items-center px-4 py-2 bg-white rounded-full border border-blue-100">
                 {/* <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div> */}
                 <span className="text-sm font-medium text-blue-900">
-                  About Seaverse
+                  About Sealearning
                 </span>
               </div>
 
               <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
                 What is <br />
-                <span style={{ color: "#1E3A76" }}>Seaverse?</span>
+                <span style={{ color: "#1E3A76" }}>Sealearning?</span>
               </h2>
             </div>
 
             <div className="space-y-8">
               <p className="text-xl lg:text-2xl text-gray-700 leading-relaxed font-medium">
-                Seaverse is the only learning platform engineered by seafarers
-                for seafarers — delivering knowledge that matters, when it
-                counts.
+                At Sealearning, we believe education deserves more than outdated systems and one-size-fits-all tools.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-4">
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Every module, lesson, and feature is designed to make crews
-                    stronger, ships safer, and companies more reliable.
+                    We’re building the next generation of Learning Management Systems (LMS) and AI-powered educational platforms that empower both institutions and learners.
                   </p>
                 </div>
 
                 <div className="space-y-4">
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Built over 4+ years by Master Mariners, Chief Engineers, and
-                    maritime experts with decades of experience.
+                    Our flagship product, Seaverse, is designed to deliver a seamless, data-driven, and deeply engaging learning journey — where intelligence meets inspiration.
                   </p>
                 </div>
               </div>
