@@ -1,6 +1,13 @@
 "use client";
 
-import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 
 type SupportedLanguage = "en" | "zh";
 
@@ -48,7 +55,10 @@ const translations: Translations = {
     en: "Aligned with STCW, IMO, and ISM Codes to keep your fleet audit-ready.",
     zh: "与 STCW、IMO 和 ISM 规范保持一致，随时应对审核。",
   },
-  "features.card.multilingual.title": { en: "Multilingual Access", zh: "多语言访问" },
+  "features.card.multilingual.title": {
+    en: "Multilingual Access",
+    zh: "多语言访问",
+  },
   "features.card.multilingual.desc": {
     en: "Content available in English, Mandarin, Tagalog, Bahasa, and more.",
     zh: "内容提供英语、中文、他加禄语、印尼语等多种语言。",
@@ -68,7 +78,10 @@ const translations: Translations = {
     en: "Access lessons via web, tablet, or mobile—onsite or at sea.",
     zh: "通过网页、平板或手机访问课程——无论在岸上还是海上。",
   },
-  "features.card.certifications.title": { en: "Certifications", zh: "认证证书" },
+  "features.card.certifications.title": {
+    en: "Certifications",
+    zh: "认证证书",
+  },
   "features.card.certifications.desc": {
     en: "Recognized industry certificates on course completion.",
     zh: "完成课程即可获得行业认可证书。",
@@ -106,30 +119,57 @@ const translations: Translations = {
     zh: "Seaverse 是一体化业务解决方案平台，旨在简化运营、提升效率并助力现代企业增长。",
   },
   "about.card.fast.title": { en: "Fast & Efficient", zh: "快速高效" },
-  "about.card.fast.desc": { en: "Our platform is built for speed and efficiency, helping you accomplish more in less time.", zh: "平台以速度与效率为先，助你以更少时间完成更多工作。" },
+  "about.card.fast.desc": {
+    en: "Our platform is built for speed and efficiency, helping you accomplish more in less time.",
+    zh: "平台以速度与效率为先，助你以更少时间完成更多工作。",
+  },
   "about.card.secure.title": { en: "Secure & Reliable", zh: "安全可靠" },
-  "about.card.secure.desc": { en: "Enterprise-grade security and reliability ensure your data is always protected and accessible.", zh: "企业级安全与可靠性，确保你的数据始终受保护且可访问。" },
+  "about.card.secure.desc": {
+    en: "Enterprise-grade security and reliability ensure your data is always protected and accessible.",
+    zh: "企业级安全与可靠性，确保你的数据始终受保护且可访问。",
+  },
   "about.card.scalable.title": { en: "Scalable Solution", zh: "可扩展方案" },
-  "about.card.scalable.desc": { en: "Grow with confidence knowing our platform scales with your business needs and requirements.", zh: "平台可随业务需求扩展，助你从容成长。" },
+  "about.card.scalable.desc": {
+    en: "Grow with confidence knowing our platform scales with your business needs and requirements.",
+    zh: "平台可随业务需求扩展，助你从容成长。",
+  },
   "about.cta.title": { en: "Ready to Get Started?", zh: "准备开始了吗？" },
-  "about.cta.subtitle": { en: "Join thousands of businesses already using Seaverse to transform their operations.", zh: "加入成千上万使用 Seaverse 改变运营的企业行列。" },
+  "about.cta.subtitle": {
+    en: "Join thousands of businesses already using Seaverse to transform their operations.",
+    zh: "加入成千上万使用 Seaverse 改变运营的企业行列。",
+  },
   "about.cta.button": { en: "Start Your Free Trial", zh: "开始免费试用" },
 
   // Contact
   "contact.title": { en: "Get in Touch", zh: "联系我们" },
-  "contact.subtitle": { en: "Ready to transform your business with our platform? Contact us today and let's discuss how we can help you achieve your goals.", zh: "准备借助我们的平台变革你的业务吗？立即联系，让我们探讨如何助你达成目标。" },
+  "contact.subtitle": {
+    en: "Ready to transform your business with our platform? Contact us today and let's discuss how we can help you achieve your goals.",
+    zh: "准备借助我们的平台变革你的业务吗？立即联系，让我们探讨如何助你达成目标。",
+  },
   "contact.info.title": { en: "Contact Information", zh: "联系信息" },
   "contact.info.email": { en: "Email", zh: "邮箱" },
   "contact.info.phone": { en: "Phone", zh: "电话" },
   "contact.info.address": { en: "Address", zh: "地址" },
   "contact.form.name.label": { en: "Full Name *", zh: "姓名 *" },
-  "contact.form.name.placeholder": { en: "Enter your full name", zh: "请输入你的姓名" },
+  "contact.form.name.placeholder": {
+    en: "Enter your full name",
+    zh: "请输入你的姓名",
+  },
   "contact.form.email.label": { en: "Email Address *", zh: "邮箱地址 *" },
-  "contact.form.email.placeholder": { en: "Enter your email address", zh: "请输入你的邮箱地址" },
+  "contact.form.email.placeholder": {
+    en: "Enter your email address",
+    zh: "请输入你的邮箱地址",
+  },
   "contact.form.company.label": { en: "Company", zh: "公司" },
-  "contact.form.company.placeholder": { en: "Enter your company name", zh: "请输入你的公司名称" },
+  "contact.form.company.placeholder": {
+    en: "Enter your company name",
+    zh: "请输入你的公司名称",
+  },
   "contact.form.message.label": { en: "Message *", zh: "留言 *" },
-  "contact.form.message.placeholder": { en: "Tell us about your project or how we can help you", zh: "介绍你的项目或需要我们如何帮助" },
+  "contact.form.message.placeholder": {
+    en: "Tell us about your project or how we can help you",
+    zh: "介绍你的项目或需要我们如何帮助",
+  },
   "contact.form.submit": { en: "Send Message", zh: "发送留言" },
 };
 
@@ -141,11 +181,16 @@ type I18nContextValue = {
 
 const I18nContext = createContext<I18nContextValue | null>(null);
 
-export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [language, setLanguageState] = useState<SupportedLanguage>("en");
 
   useEffect(() => {
-    const saved = typeof window !== "undefined" ? (localStorage.getItem("lang") as SupportedLanguage | null) : null;
+    const saved =
+      typeof window !== "undefined"
+        ? (localStorage.getItem("lang") as SupportedLanguage | null)
+        : null;
     if (saved === "en" || saved === "zh") {
       setLanguageState(saved);
       return;
@@ -167,13 +212,19 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     if (typeof window !== "undefined") localStorage.setItem("lang", lang);
   }, []);
 
-  const t = useCallback((key: string) => {
-    const record = translations[key];
-    if (!record) return key;
-    return record[language] ?? record.en ?? key;
-  }, [language]);
+  const t = useCallback(
+    (key: string) => {
+      const record = translations[key];
+      if (!record) return key;
+      return record[language] ?? record.en ?? key;
+    },
+    [language]
+  );
 
-  const value = useMemo(() => ({ language, setLanguage, t }), [language, setLanguage, t]);
+  const value = useMemo(
+    () => ({ language, setLanguage, t }),
+    [language, setLanguage, t]
+  );
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 };
@@ -183,5 +234,3 @@ export function useI18n(): I18nContextValue {
   if (!ctx) throw new Error("useI18n must be used within LanguageProvider");
   return ctx;
 }
-
-
