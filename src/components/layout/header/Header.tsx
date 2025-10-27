@@ -26,7 +26,9 @@ const ModernHeader = () => {
   const linkTextClass =
     isTop && pathname === "/" ? "text-white" : "text-[#1E3A76]";
   const buttonBgClass =
-    isTop && pathname === "/" ? "bg-white text-[#1E3A76]" : "bg-[#1E3A76] text-white";
+    isTop && pathname === "/"
+      ? "bg-white text-[#1E3A76]"
+      : "bg-[#1E3A76] text-white";
   const buttonHoverClass =
     isTop && pathname === "/" ? "hover:bg-gray-100" : "hover:bg-[#162d5a]";
 
@@ -80,11 +82,17 @@ const ModernHeader = () => {
           <button
             onClick={toggleMobileMenu}
             className={`md:hidden p-2 rounded-lg transition-colors duration-200 ${
-              isTop && pathname === "/" ? "text-white hover:bg-white/20" : "text-[#1E3A76] hover:bg-gray-200"
+              isTop && pathname === "/"
+                ? "text-white hover:bg-white/20"
+                : "text-[#1E3A76] hover:bg-gray-200"
             }`}
             aria-label="Toggle mobile menu"
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
