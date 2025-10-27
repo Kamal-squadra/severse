@@ -11,9 +11,11 @@ import {
   Ship
 } from "lucide-react";
 import { useI18n } from "@/lib/i18n/LanguageProvider";
+import { useRouter } from "next/navigation";
 
 const ProductPage = () => {
   const { t } = useI18n();
+  const router = useRouter();
   
   return (
     <div className="bg-white">
@@ -178,11 +180,11 @@ const ProductPage = () => {
           {/* CTA Section */}
           <div className="mt-16 text-center">
             <div className="inline-flex flex-col sm:flex-row gap-4">
-              <button className="bg-white text-black border border-black px-8 py-4 rounded-lg font-semibold transition flex items-center justify-center space-x-2 text-base hover:bg-gray-50">
+              <button type="button" onClick={()=>{router.push("/content")}} className="bg-white text-black border border-black px-8 py-4 rounded-lg font-semibold transition flex items-center justify-center space-x-2 text-base hover:bg-gray-50 cursor-pointer">
                 <span>Learn More</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
-              <button className="bg-[#1E3A76] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#162d5a] transition flex items-center justify-center space-x-2 text-base">
+              <button type="button" onClick={()=>{router.push("/contact")}} className="bg-[#1E3A76] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#162d5a] transition flex items-center justify-center space-x-2 text-base cursor-pointer">
                 <span>Request a Demo</span>
                 <ArrowRight className="w-5 h-5" />
               </button>

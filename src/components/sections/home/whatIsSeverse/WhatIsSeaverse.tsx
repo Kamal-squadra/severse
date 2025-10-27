@@ -2,9 +2,12 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { useI18n } from "@/lib/i18n/LanguageProvider";
+import { useRouter } from "next/navigation";
 
 const WhatIsSeaVerse = () => {
   const { t } = useI18n();
+  const router = useRouter();
+
   return (
     <section className="relative pt-50 pb-20 sm:pt-70 sm:pb-20 lg:pt-32 lg:pb-32 overflow-hidden">
       {/* Background Elements */}
@@ -57,14 +60,16 @@ const WhatIsSeaVerse = () => {
               className="w-full sm:flex-1 border border-gray-300 rounded-lg px-4 py-3 text-white text-base"
             /> */}
             <button
-              type="submit"
+              type="button"
+              onClick={()=>{router.push("/product")}}
               className="w-full sm:w-auto bg-white text-black border border-black px-8 py-3 rounded-lg font-semibold transition flex items-center justify-center space-x-2 text-base cursor-pointer"
             >
               <span>{t("hero.form.emailPlaceholder")}</span>
               <ArrowRight className="w-5 h-5" />
             </button>
             <button
-              type="submit"
+              type="button"
+              onClick={()=>{router.push("/contact")}}
               className="w-full sm:w-auto bg-[#1E3A76] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#162d5a] transition flex items-center justify-center space-x-2 text-base cursor-pointer"
             >
               <span>{t("hero.form.cta")}</span>
