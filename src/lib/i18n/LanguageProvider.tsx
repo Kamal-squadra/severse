@@ -140,37 +140,72 @@ const translations: Translations = {
   },
   "about.cta.button": { en: "Start Your Free Trial", zh: "开始免费试用" },
 
-  // Contact
-  "contact.title": { en: "Get in Touch", zh: "联系我们" },
+  // Contact - Updated with new maritime content
+  "contact.title": {
+    en: "Let's Elevate Maritime Learning Together",
+    zh: "一起提升海事学习",
+  },
   "contact.subtitle": {
-    en: "Ready to transform your business with our platform? Contact us today and let's discuss how we can help you achieve your goals.",
-    zh: "准备借助我们的平台变革你的业务吗？立即联系，让我们探讨如何助你达成目标。",
+    en: "Ready to Transform Your Maritime Training?",
+    zh: "准备转变您的海事培训吗？",
+  },
+  "contact.action.demo": { en: "Schedule a live demo", zh: "预约现场演示" },
+  "contact.action.trial": { en: "Request a free trial", zh: "申请免费试用" },
+  "contact.action.proposal": {
+    en: "Get a custom proposal for your fleet",
+    zh: "获取舰队定制方案",
   },
   "contact.info.title": { en: "Contact Information", zh: "联系信息" },
+  "contact.info.company": {
+    en: "SeaLearning Pvt Ltd",
+    zh: "SeaLearning 私人有限公司",
+  },
   "contact.info.email": { en: "Email", zh: "邮箱" },
   "contact.info.phone": { en: "Phone", zh: "电话" },
-  "contact.info.address": { en: "Address", zh: "地址" },
-  "contact.form.name.label": { en: "Full Name *", zh: "姓名 *" },
+  "contact.info.whatsapp": { en: "WhatsApp", zh: "WhatsApp" },
+  "contact.info.support": { en: "24/7 support", zh: "24/7 支持" },
+  "contact.why.title": {
+    en: "Why Choose SEAVERSE?",
+    zh: "为什么选择 SEAVERSE？",
+  },
+  "contact.why.point1": {
+    en: "Expert-led maritime training content",
+    zh: "专家领导的海事培训内容",
+  },
+  "contact.why.point2": {
+    en: "Compliance with global standards",
+    zh: "符合全球标准",
+  },
+  "contact.why.point3": {
+    en: "Flexible learning for your entire fleet",
+    zh: "为您的整个船队提供灵活学习",
+  },
+  "contact.form.title": { en: "Request a Demo", zh: "申请演示" },
+  "contact.form.name.label": { en: "Full Name *", zh: "全名 *" },
   "contact.form.name.placeholder": {
     en: "Enter your full name",
-    zh: "请输入你的姓名",
+    zh: "请输入您的全名",
   },
   "contact.form.email.label": { en: "Email Address *", zh: "邮箱地址 *" },
   "contact.form.email.placeholder": {
     en: "Enter your email address",
-    zh: "请输入你的邮箱地址",
+    zh: "请输入您的邮箱地址",
   },
   "contact.form.company.label": { en: "Company", zh: "公司" },
   "contact.form.company.placeholder": {
     en: "Enter your company name",
-    zh: "请输入你的公司名称",
+    zh: "请输入您的公司名称",
   },
   "contact.form.message.label": { en: "Message *", zh: "留言 *" },
   "contact.form.message.placeholder": {
     en: "Tell us about your project or how we can help you",
-    zh: "介绍你的项目或需要我们如何帮助",
+    zh: "告诉我们您的项目或我们如何帮助您",
   },
   "contact.form.submit": { en: "Send Message", zh: "发送留言" },
+  "contact.form.response": {
+    en: "We'll get back to you within 24 hours",
+    zh: "我们将在 24 小时内回复您",
+  },
 };
 
 type I18nContextValue = {
