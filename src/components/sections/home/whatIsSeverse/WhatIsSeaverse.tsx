@@ -6,7 +6,7 @@ import { useI18n } from "@/lib/i18n/LanguageProvider";
 const WhatIsSeaVerse = () => {
   const { t } = useI18n();
   return (
-    <section className="relative py-20 lg:py-32 overflow-hidden">
+    <section className="relative pt-50 pb-20 sm:pt-70 sm:pb-20 lg:pt-32 lg:pb-32 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0"></div>
       <div className="absolute top-0 right-0 w-1/3 h-full to-transparent"></div>
