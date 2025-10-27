@@ -38,7 +38,7 @@ const HeroPage = () => {
             {t("hero.subtitle")}
           </p>
 
-          <form className="mt-8 flex flex-col sm:flex-row items-center gap-4 max-w-md">
+          {/* <form className="mt-8 flex flex-col sm:flex-row items-center gap-4 max-w-md">
             <input
               type="email"
               required
@@ -52,7 +52,7 @@ const HeroPage = () => {
               <span>{t("hero.form.cta")}</span>
               <ArrowRight className="w-5 h-5" />
             </button>
-          </form>
+          </form> */}
 
           <div className="mt-8 flex items-center gap-3">
             <Star className="w-6 h-6 text-[#e2eafc] fill-current" />

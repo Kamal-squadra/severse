@@ -59,6 +59,18 @@ const ModernHeader = () => {
               Home
             </Link>
             <Link
+              href="/product"
+              className={`px-3 lg:px-4 py-2 font-medium rounded-xl transition-all duration-200 text-sm lg:text-base ${linkTextClass} hover:bg-[#1E3A76] hover:text-white`}
+            >
+              Product
+            </Link>
+            <Link
+              href="/content"
+              className={`px-3 lg:px-4 py-2 font-medium rounded-xl transition-all duration-200 text-sm lg:text-base ${linkTextClass} hover:bg-[#1E3A76] hover:text-white`}
+            >
+              Content
+            </Link>
+            <Link
               href="/platform"
               className={`px-3 lg:px-4 py-2 font-medium rounded-xl transition-all duration-200 text-sm lg:text-base ${linkTextClass} hover:bg-[#1E3A76] hover:text-white`}
             >
@@ -109,6 +121,20 @@ const ModernHeader = () => {
               className={`px-4 py-3 font-medium rounded-lg transition-all text-[#1E3A76] duration-200 text-left hover:bg-[#1E3A76] hover:text-white`}
             >
               Home
+            </Link>
+            <Link
+              href="/product"
+              onClick={closeMobileMenu}
+              className={`px-4 py-3 font-medium rounded-lg transition-all text-[#1E3A76] duration-200 text-left hover:bg-[#1E3A76] hover:text-white`}
+            >
+              Product
+            </Link>
+            <Link
+              href="/content"
+              onClick={closeMobileMenu}
+              className={`px-4 py-3 font-medium rounded-lg transition-all text-[#1E3A76] duration-200 text-left hover:bg-[#1E3A76] hover:text-white`}
+            >
+              Content
             </Link>
             <Link
               href="/platform"
