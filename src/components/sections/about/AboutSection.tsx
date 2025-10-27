@@ -18,31 +18,67 @@ const AboutSection = () => {
       <div className="grid md:grid-cols-3 gap-8">
         <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
           <div className="w-16 h-16 bg-[#1E3A76] rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-[#1E3A76] mb-3">{t("about.card.fast.title")}</h3>
+          <h3 className="text-xl font-semibold text-[#1E3A76] mb-3">
+            {t("about.card.fast.title")}
+          </h3>
           <p className="text-gray-600">{t("about.card.fast.desc")}</p>
         </div>
 
         <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
           <div className="w-16 h-16 bg-[#1E3A76] rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+              />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-[#1E3A76] mb-3">{t("about.card.secure.title")}</h3>
+          <h3 className="text-xl font-semibold text-[#1E3A76] mb-3">
+            {t("about.card.secure.title")}
+          </h3>
           <p className="text-gray-600">{t("about.card.secure.desc")}</p>
         </div>
 
         <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
           <div className="w-16 h-16 bg-[#1E3A76] rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+            <svg
+              className="w-8 h-8 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
+              />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-[#1E3A76] mb-3">{t("about.card.scalable.title")}</h3>
+          <h3 className="text-xl font-semibold text-[#1E3A76] mb-3">
+            {t("about.card.scalable.title")}
+          </h3>
           <p className="text-gray-600">{t("about.card.scalable.desc")}</p>
         </div>
       </div>

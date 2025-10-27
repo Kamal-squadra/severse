@@ -17,7 +17,9 @@ const KeyFeaturesSnapshot = () => {
       <div className="max-w-5xl mx-auto px-6 text-black">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl heading font-bold mb-3">Key <span className="text-[#1E3A76]">Features</span></h2>
+          <h2 className="text-5xl heading font-bold mb-3">
+            Key <span className="text-[#1E3A76]">Features</span>
+          </h2>
           <p className="text-gray-600 text-lg max-w-2xl text-center mx-auto">
             Structured for Reliability and Growth
           </p>
@@ -29,10 +31,13 @@ const KeyFeaturesSnapshot = () => {
           <div className="rounded-4xl p-8 bg-white">
             <div className="flex items-center gap-3 mb-6">
               <Users className="w-7 h-7 text-[#1E3A76]" />
-              <h3 className="text-xl font-semibold md:text-2xl">Role-Based Learning</h3>
+              <h3 className="text-xl font-semibold md:text-2xl">
+                Role-Based Learning
+              </h3>
             </div>
             <p className="text-gray-600 text-md mb-8">
-              Tailored learning paths designed specifically for different maritime roles and experience levels.
+              Tailored learning paths designed specifically for different
+              maritime roles and experience levels.
             </p>
 
             <div className="space-y-3">
@@ -58,10 +63,13 @@ const KeyFeaturesSnapshot = () => {
           <div className="rounded-4xl p-8 bg-white">
             <div className="flex items-center gap-3 mb-6">
               <Video className="w-7 h-7 text-[#1E3A76]" />
-              <h3 className="text-xl font-semibold md:text-2xl">Real-Life Case Studies</h3>
+              <h3 className="text-xl font-semibold md:text-2xl">
+                Real-Life Case Studies
+              </h3>
             </div>
             <p className="text-gray-600 text-md mb-8">
-              Interactive video scenarios based on actual maritime incidents and emergency situations.
+              Interactive video scenarios based on actual maritime incidents and
+              emergency situations.
             </p>
 
             <div className="space-y-4">
@@ -102,10 +110,13 @@ const KeyFeaturesSnapshot = () => {
           <div className="rounded-4xl p-8 bg-white">
             <div className="flex items-center gap-3 mb-6">
               <Monitor className="w-7 h-7 text-[#1E3A76]" />
-              <h3 className="text-xl font-semibold md:text-2xl">Interactive Content</h3>
+              <h3 className="text-xl font-semibold md:text-2xl">
+                Interactive Content
+              </h3>
             </div>
             <p className="text-gray-600 text-md mb-8">
-              Engage with dynamic quizzes, simulations, and hands-on assessments for better retention.
+              Engage with dynamic quizzes, simulations, and hands-on assessments
+              for better retention.
             </p>
 
             <div className="bg-white rounded-xl p-5 border border-gray-100">
@@ -143,10 +154,13 @@ const KeyFeaturesSnapshot = () => {
           <div className="rounded-4xl p-8 bg-white">
             <div className="flex items-center gap-3 mb-6">
               <TrendingUp className="w-7 h-7 text-[#1E3A76]" />
-              <h3 className="text-xl font-semibold md:text-2xl">Progress Tracking</h3>
+              <h3 className="text-xl font-semibold md:text-2xl">
+                Progress Tracking
+              </h3>
             </div>
             <p className="text-gray-600 text-md mb-8">
-              Monitor learning progress with detailed analytics and personalized performance insights.
+              Monitor learning progress with detailed analytics and personalized
+              performance insights.
             </p>
 
             <div className="space-y-5">

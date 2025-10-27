@@ -12,7 +12,9 @@ const FeatureHighlightSection = () => (
             <span className="text-xs md:text-sm text-[#1E3A76] font-bold">
               Course Completion
             </span>
-            <span className="text-[#1E3A76] font-bold text-lg md:text-xl lg:text-2xl">56</span>
+            <span className="text-[#1E3A76] font-bold text-lg md:text-xl lg:text-2xl">
+              56
+            </span>
           </div>
 
           {/* Bar Chart Card - Center */}
@@ -31,7 +33,9 @@ const FeatureHighlightSection = () => (
           {/* Fleet Metrics Card - Bottom Right */}
           <div className="absolute top-20 md:top-24 lg:top-32 right-0 md:right-4 lg:right-8 w-44 md:w-52 lg:w-64 h-24 md:h-28 lg:h-32 bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-xl flex flex-col items-center justify-center p-3 md:p-4 z-30">
             <LineChart className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 text-[#1E3A76] mb-1 md:mb-2" />
-            <span className="text-xs md:text-sm text-gray-700">Fleet Metrics</span>
+            <span className="text-xs md:text-sm text-gray-700">
+              Fleet Metrics
+            </span>
           </div>
         </div>
       </div>
@@ -46,28 +50,33 @@ const FeatureHighlightSection = () => (
           Where maritime learning meets analytics, compliance, and crew
           empowerment—designed for real-world fleets.
         </p>
-        
+
         {/* Feature List */}
         <div className="text-gray-800 space-y-4 md:space-y-6">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 max-w-lg mx-auto lg:mx-0">
             <div className="flex items-center gap-3 sm:gap-4 w-full sm:w-auto">
               <ShieldCheck className="text-[#1E3A76] w-6 h-6 md:w-7 md:h-7 flex-shrink-0" />
               <div className="text-left">
-                <div className="text-sm md:text-base font-semibold">Compliance Assured</div>
+                <div className="text-sm md:text-base font-semibold">
+                  Compliance Assured
+                </div>
                 <div className="text-gray-500 text-xs md:text-sm">
                   Audit-ready certifications and regulation tracking.
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 max-w-lg mx-auto lg:mx-0">
             <div className="flex items-center gap-3 sm:gap-4 w-full sm:w-auto">
               <LineChart className="text-green-500 w-6 h-6 md:w-7 md:h-7 flex-shrink-0" />
               <div className="text-left">
-                <div className="text-sm md:text-base font-semibold">Fleet Performance</div>
+                <div className="text-sm md:text-base font-semibold">
+                  Fleet Performance
+                </div>
                 <div className="text-gray-500 text-xs md:text-sm">
-                  Track operational KPIs, safety, and upskilling with zero guesswork.
+                  Track operational KPIs, safety, and upskilling with zero
+                  guesswork.
                 </div>
               </div>
             </div>

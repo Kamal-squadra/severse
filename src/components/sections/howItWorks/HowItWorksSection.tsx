@@ -77,10 +77,10 @@ const HowItWorksSection = () => {
                 <div
                   className={`relative z-10 bg-white rounded-2xl md:rounded-3xl p-5 md:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 w-full max-w-sm mx-auto group ${
                     // Desktop staggered positioning - only on xl screens
-                    idx % 2 === 0 
-                      ? "xl:translate-y-0" 
-                      : idx === 1 
-                      ? "xl:-translate-y-8" 
+                    idx % 2 === 0
+                      ? "xl:translate-y-0"
+                      : idx === 1
+                      ? "xl:-translate-y-8"
                       : "xl:translate-y-8"
                   }`}
                 >

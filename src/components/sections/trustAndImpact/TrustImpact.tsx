@@ -71,13 +71,13 @@ const TrustImpactBar = () => {
           {/* Course Grid - Left Side */}
           {/* Course Grid - Left Side */}
           <div className="flex-1 relative">
-              <Image
-                src="/images/trust-impact/pc.png"
-                alt="Phone Mockup"
-                width={500}
-                height={1000}
-                className=""
-              />
+            <Image
+              src="/images/trust-impact/pc.png"
+              alt="Phone Mockup"
+              width={500}
+              height={1000}
+              className=""
+            />
           </div>
 
           {/* Text - Right Side */}
